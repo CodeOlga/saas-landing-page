@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "postinstall": "npm install --legacy-peer-deps"
+    "postinstall": "npm install --legacy-peer-deps",
+    "vercel-build": "npm install --legacy-peer-deps && npm run build"
   },
   "dependencies": {
     "clsx": "^2.1.1",
